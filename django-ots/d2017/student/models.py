@@ -35,7 +35,7 @@ class Student(models.Model):
 	sid = models.CharField(max_length=10, primary_key = True)
 	name = models.CharField(max_length=30)
 	surname = models.CharField(max_length=30)
-	department = models.ForeignKey(Department,blank=True, null=True, on_delete=models.PROTECT)
+	department = models.ForeignKey(Department,blank=True, null=True)
 	took = models.ManyToManyField(Course,related_name = 'taken')
 	registered = models.ManyToManyField(Course,related_name = 'enrolled')
 	user = models.OneToOneField(User, null = True,on_delete=models.PROTECT)

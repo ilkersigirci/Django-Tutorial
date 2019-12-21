@@ -1,3 +1,4 @@
 {
-	"python.pythonPath": "/home/ilker/.local/share/virtualenvs/d2017-3LlsiIev/bin/python"
+	"python.pythonPath": "/home/ilker/.local/share/virtualenvs/d2017-3LlsiIev/bin/python",
+	"python.linting.enabled": true
 }
